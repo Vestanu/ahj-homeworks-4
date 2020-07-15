@@ -21,10 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
   button.addEventListener('click', (event) => {
     event.preventDefault();
     if (luhnAlgorithm(input.value)) {
-      valid.textContent = 'Number car is valid';
+      valid.textContent = 'Card number is valid';
       valid.style.color = '#5eb95e';
     } else {
-      valid.textContent = 'Number car is not valid';
+      valid.textContent = 'Card number is not valid';
       valid.style.color = '#f81111';
     }
   });

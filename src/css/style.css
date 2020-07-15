@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  
   .img-cards {
     display: flex;
     list-style-type: none;
@@ -14,9 +13,14 @@
   .valid {
     border-color: #5eb95e;
   }
-  
+  #validation-button {
+    background-color: rgb(141, 245, 141);
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+  }
   #input {
-    border-width: 5px;
+    border-width: 1px;
   }
   
   .invalid {
