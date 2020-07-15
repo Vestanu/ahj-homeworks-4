@@ -38,7 +38,7 @@ describe('Validation', () => {
     await input.type('245434564356745');
     await button.click();
     const result = await page.evaluate(() => document.getElementById('valid').textContent);
-    await expect(result).toBe('Number car is valid');
+    await expect(result).toBe('Card number is valid');
   });
   test('Invalid', async () => {
     await page.goto(baseUrl);
@@ -47,6 +47,6 @@ describe('Validation', () => {
     await input.type('44456756');
     await button.click();
     const result = await page.evaluate(() => document.getElementById('valid').textContent);
-    await expect(result).toBe('Number car is not valid');
+    await expect(result).toBe('Card number is not valid');
   });
 });
