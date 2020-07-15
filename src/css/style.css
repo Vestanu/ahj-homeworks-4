@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .img-cards {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .img-card {
+    opacity: 0.3;
+  }
+  
+  .valid {
+    border-color: #5eb95e;
+  }
+  
+  #input {
+    border-width: 5px;
+  }
+  
+  .invalid {
+    border-color: #f81111;
+  }
